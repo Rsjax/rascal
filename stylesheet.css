@@ -1,0 +1,217 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Rr {
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+}
+
+.Rhead {
+  width: 1170px;
+  margin:0 auto;
+}
+
+.Rheader h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.Rmoji {
+  padding-top: 180px;
+}
+
+.Rheader {
+  opacity :0.7;
+  text-align: center;
+}
+
+.Rsns {
+  color: white;
+  opacity: 0.8;
+  padding: 8px 24px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.Rsns:hover {
+  opacity:1.0;
+}
+
+.Rbutton {
+  text-align: center;
+}
+
+.Rbutton p {
+  opacity: 0.7;
+  margin: 15px 0 15px 0;
+}
+
+.sinki {
+  background-color: #239b76;
+  opacity: 0.8;
+}
+
+.facebook {
+  background-color: #3b5998;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+  opacity: 0.8;
+}
+
+.Rbutton {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+sana {
+  padding-right: 5px;
+}
+
+header{
+  width: 100%;
+  height: 65px;
+  background-color:rgba(34,49,52,0.9);
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+
+.Rheader2 {
+  float:left;
+}
+
+.Rprogate {
+  width: 124px;
+  margin-top:20px;
+}
+
+.Rheader3 {
+  float:right;
+  background-color:rgba(255,255,255,0.3);
+  transition:all 0.5s;
+}
+
+.login {
+  padding: 0 25px 0 25px;
+  line-height: 65px;
+  color: white;
+  display: block;
+}
+
+.Rheader3:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+
+.Rtop-footer {
+  height: 500px;
+  background-color:#f7f7f7;
+  padding-bottom: 80px;
+  text-align:center;
+}
+
+.Rtop {
+  padding-top:80px;
+  padding-bottom:50px;
+}
+
+.Rtop h2 {
+  font-weight: normal;
+  opacity:0.7;
+}
+
+.Rlessons {
+  float:left;
+  width: 25%;
+}
+
+.Rlesson-icon {
+  position:relative;
+}
+
+.Rlesson-icon p {
+  position:absolute;
+  width:100%;
+  top:45%;
+  color: white;
+}
+
+.Rtxt {
+  font-size: 13px;
+  padding-top:15px;
+  color:#b3aeb5;
+  width:80%;
+  display:inline-block;
+}
+
+.Rfoot {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.Rform h2 {
+  font-weight: normal;
+  opacity: 0.8;
+  color: #5f5d60;
+}
+
+.Rform h3 {
+  color: #5f5d60;
+  padding-bottom: 50px;
+}
+
+
+.Rbutton2 {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 7px #1a7940;
+  opacity: 0.8;
+}
+
+.Rbutton2:hover {
+  opacity: 1.0;
+}
+
+.Rbutton2:active {
+  position:relative;
+  box-shadow: none;
+  top:7px;
+}
+
+.Rfoot2 {
+  border-top: 1px solid #eee;
+  padding: 30px 0 30px 0 ;
+}
+
+.Rlast {
+  width:124px;
+}
+
+.Rp {
+  font-size: 12px;
+  color: #b3aeb5;
+}
